@@ -1,7 +1,12 @@
-<ul>
+{{> header}}
+{{> navigation}}
+    <h1>Categories</h1>
+    <ul>
     {{#global.categories}}
         <li>
             <a href="{{__dir__}}/categories/{{name}}.html" name="category: {{name}}">{{name}}</a>
         </li>
     {{/global.categories}}
-</ul>
+    </ul>
+
+{{> footer}}
