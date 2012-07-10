@@ -154,7 +154,7 @@ body {
   line-height: 1.6;
   padding-bottom: 10px;
   background-color: white;
-  padding: 30px; }
+  padding: 0 30px; }
 
 body > *:first-child {
   margin-top: 0 !important; }
@@ -428,16 +428,21 @@ pre {
 
 
 /* layouts */
+#header {
+    padding: 0 30px;
+}
 #sidebar {
+    text-align: right;
     position: absolute;
-    top: 190px;
+    top: 120px;
     left: 0;
-    width: 200px;
+    width: 155px;
     min-height: 300px;
     overflow-y: auto;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
-    padding: 15px 0 30px 30px;
+    /* padding: 15px 0 30px 30px; */
+    padding: 15px 50px 15px 0;
     box-shadow: 0 0 20px #CCC;
     -webkit-box-shadow: 0 0 20px #CCC;
     -moz-box-shadow: 0 0 20px #ccc;
@@ -446,7 +451,8 @@ pre {
 #container {
     position: relative;
     width: 550px;
-    margin: 40px 0 50px 260px;
+    margin-left: 260px;
+    margin-top: 25px;
 }
 
 #content {
