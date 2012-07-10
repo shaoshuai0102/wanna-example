@@ -1,12 +1,14 @@
 {{> header}}
-{{> navigation}}
-<section id="content">
-    {{#global.posts}}
-        <article>
-            <a href="posts/{{filename}}" name="{{title}}">{{title}}</a>
-            {{{content}}}
-        </article>
-    {{/global.posts}}
+<section id="container">
+    <section id="content">
+        {{#global.posts}}
+            <article>
+                <h1><a href="posts/{{filename}}" name="{{title}}">{{title}}</a></h1>
+                {{{content}}}
+            </article>
+        {{/global.posts}}
+    </section>
+    {{> footer}}
 </section>
 {{> sidebar}}
-{{> footer}}
+{{> foot}}

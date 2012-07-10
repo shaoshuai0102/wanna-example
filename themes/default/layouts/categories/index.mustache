@@ -1,12 +1,16 @@
 {{> header}}
-{{> navigation}}
-    <h1>Categories</h1>
-    <ul>
-    {{#global.categories}}
-        <li>
-            <a href="{{__dir__}}/categories/{{name}}.html" name="category: {{name}}">{{name}}</a>
-        </li>
-    {{/global.categories}}
-    </ul>
-
-{{> footer}}
+<section id="container">
+    <section id="content">
+        <h1>Categories</h1>
+        <ul>
+        {{#global.categories}}
+            <li>
+                <a href="{{__dir__}}/categories/{{name}}.html" name="category: {{name}}">{{name}}</a>
+            </li>
+        {{/global.categories}}
+        </ul>
+    </section>
+    {{> footer}}
+</section>
+{{> sidebar}}
+{{> foot}}

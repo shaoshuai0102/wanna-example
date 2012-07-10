@@ -1,15 +1,17 @@
 {{> header}}
-{{> navigation}}
-<section id="content">
-    <article>
-        {{#categories.length}}
-        Categories:
-        {{/categories.length}}
-        {{#categories}}
-            <a href="../categories/{{.}}.html" name="category: {{.}}">{{.}}</a>
-        {{/categories}}
-        {{{content}}}
-    </article>
+<section id="container">
+    <section id="content">
+        <article>
+            {{#categories.length}}
+            Categories:
+            {{/categories.length}}
+            {{#categories}}
+                <a href="../categories/{{.}}.html" name="category: {{.}}">{{.}}</a>
+            {{/categories}}
+            {{{content}}}
+        </article>
+    </section>
+    {{> footer}}
 </section>
 {{> sidebar}}
-{{> footer}}
+{{> foot}}
