@@ -2,13 +2,16 @@
 <section id="container">
     <section id="content">
         <article>
-            {{#categories.length}}
-            Categories:
-            {{/categories.length}}
-            {{#categories}}
-                <a href="../categories/{{.}}.html" name="category: {{.}}">{{.}}</a>
-            {{/categories}}
             <h1>{{title}}</h1>
+            <span class="date">{{date}}</span>
+            {{#categories.length}}
+                <span class="categories">
+                Categories:
+                {{#categories}}
+                    <a href="../categories/{{.}}.html" name="category: {{.}}">{{.}}</a>
+                {{/categories}}
+                </span>
+            {{/categories.length}}
             {{{content}}}
         </article>
     </section>
