@@ -3,5 +3,6 @@
         "name": "mustache",
         "version": "@>=0.4.0",
         "interface": "to_html"
-    }
+    },
+    "date-format": "YYYY-MM-DD"
 }
