@@ -1,8 +1,8 @@
 {
-    "view-engine": {
+    "name": "default",
+    "viewEngine": {
         "name": "mustache",
-        "version": "@>=0.4.0",
-        "interface": "to_html"
+        "version": "@>=0.4.0"
     },
-    "date-format": "YYYY-MM-DD"
+    "dateFormat": "YYYY-MM-DD"
 }

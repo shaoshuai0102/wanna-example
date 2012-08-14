@@ -4,5 +4,11 @@
     "subtitle": "若为自由故",
     "author": "Shawn",
     "keywords": "博客, 邵帅",
-    "description": "邵帅的博客，对互联网、思维感兴趣，热爱生活，一直在路上"
+    "description": "邵帅的博客，对互联网、思维感兴趣，热爱生活，一直在路上",
+
+    "disqus_shortname": "shaoshuaime",
+
+    "rsync_username": "root",
+    "rsync_host": "shaoshuai.me",
+    "rsync_path": "/var/www/shaoshuai.me/wanna"
 }
